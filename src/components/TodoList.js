@@ -7,7 +7,6 @@ const TodoListBlock = styled.div`
   padding: 20px 32px;
   padding-bottom: 48px;
   overflow-y: auto;
-  background: gray; /* 사이즈 조정이 잘 되고 있는지 확인하기 위한 임시 스타일 */
 `;
 
 function TodoList() {

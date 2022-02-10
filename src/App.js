@@ -4,6 +4,7 @@ import TodoTemplate from './components/TodoTemplate';
 import TodoHead from './components/TodoHead';
 import TodoList from './components/TodoList';
 import Button from './components/Button';
+import TodoCreate from './components/TodoCreate';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -20,6 +21,7 @@ function App() {
         <TodoList>
           <Button>hi</Button>
         </TodoList>
+        <TodoCreate />
       </TodoTemplate>
 
     </div>
